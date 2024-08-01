@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.weather {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-bar i {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.weather-icon {
+  font-size: 120px;
+  margin: 20px auto;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.location {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.weather-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.col {
+  flex: 1;
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.col p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.col span {
+  display: block;
+  font-size: 14px;
+  color: #888;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  flex: 1;
+  max-width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.forecast-day i {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.forecast-day p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.forecast-day span {
+  display: block;
+  font-size: 14px;
+  color: #888;
+}
+.placeholder {
+  text-align: center;
+  color: #666;
+  margin-top: 50px;
+}
+
+.placeholder p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.icon-sun {
+  color: #ffd700;
+}
+
+.icon-moon {
+  color: #c0c0c0;
+}
+
+.icon-cloud-sun {
+  color: #b0c4de;
+}
+
+.icon-cloud {
+  color: #b0c4de;
+}
+
+.icon-rain {
+  color: #00bfff;
+}
+
+.icon-snow {
+  color: #add8e6;
+}
+
+.icon-smog {
+  color: #808080;
+}
+
+.icon-wind {
+  color: #00ced1;
+}
+
+.icon-humidity {
+  color: #4682b4;
+}
